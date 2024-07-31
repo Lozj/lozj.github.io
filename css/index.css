@@ -22851,6 +22851,53 @@ svg.icon.faa-tada {
   color: #f2b94b;
 }
 
+/* bilibli番剧插件 */
+#page #article-container .cinemas-tab.cinemas-active {
+  background: var(--anzhiyu-theme);
+  color: var(--anzhiyu-ahoverbg);
+  border-radius: 10px;
+}
+#page #article-container .cinemas-tabs .cinemas-tab {
+  border-bottom: none;
+  border-radius: 10px;
+}
+#page #article-container .cinemas-tabs a.cinemas-tab:hover {
+  text-decoration: none !important;
+  border-radius: 10px;
+  column-gap: var(--anzhiyu-ahoverbg);
+}
+#page #article-container .cinemas-pagination a.cinemas-button {
+  border-bottom: none;
+  border-radius: 10px;
+}
+.cinemas-button:hover {
+  background: var(--anzhiyu-theme) !important;
+  border-radius: 10px !important;
+  color: var(--anzhiyu-ahoverbg) !important;
+}
+a.cinemas-button.cinemas-nextpage:hover {
+  text-decoration: none !important;
+}
+.cinemas-button {
+  padding: 5px 10px !important;
+}
+
+a.cinemas-tab {
+  padding: 5px 10px !important;
+}
+svg.icon.faa-tada {
+  font-size: 1.1em;
+}
+.cinemas-info-item {
+  border-right: 1px solid #f2b94b;
+}
+.cinemas-info-item span {
+  color: #f2b94b;
+}
+.cinemas-info-item em {
+  color: #f2b94b;
+}
+
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
   position: relative;
